@@ -3,7 +3,6 @@ import Modal from "../UI/Modal";
 import BasketItem from "./BasketItem";
 import styles from "./Basket.module.css";
 import BasketContext from "../../store/basket-context";
-import axios from "axios";
 
 const Basket = (props) => {
   const basketCtx = useContext(BasketContext);
@@ -52,7 +51,7 @@ const Basket = (props) => {
         <button className={styles.closeBtn} onClick={props.onClose}>
           Close
         </button>
-        {hasProducts && <button className={styles.button} onClick={continueToPayment}>Continue</button>}
+        {hasProducts && <button className={styles.button}>Continue</button>}
       </div>
     </Modal>
   );
