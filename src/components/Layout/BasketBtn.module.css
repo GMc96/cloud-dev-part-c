@@ -1,0 +1,29 @@
+.button {
+    cursor: pointer;
+    font: inherit;
+    border: none;
+    background-color: darkgreen;
+    color: white;
+    padding: 0.5rem 2rem;
+    display: flex;
+    align-items: center;
+    border-start-start-radius: 25px;
+    font-weight: bold;
+    margin-bottom: -47px;
+}
+
+.button:hover {
+    background-color: greenyellow;
+}
+
+.icon {
+    margin-right: 1rem;
+}
+
+.productsInBasket {
+    background-color: forestgreen;
+    padding: 3px 5px;
+    border-radius: 10px;
+    margin: 0rem 2rem 0rem 1rem;
+    font-weight: bold;
+}

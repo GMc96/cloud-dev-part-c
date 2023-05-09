@@ -1,0 +1,20 @@
+.button {
+    cursor: pointer;
+    font: inherit;
+    border: none;
+    background-color: darkgreen;
+    color: white;
+    padding: 0.8rem 2rem;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    margin-bottom: -47px;
+}
+
+.button:hover {
+    background-color: greenyellow;
+}
+
+.icon {
+    margin-right: 1rem;
+}
